@@ -8,9 +8,13 @@
 * ask
   - utter_ask
 
-## food-watch
+## foodwatch
 * organizations
   - utter_organizations
+
+## hotel with multiple
+* hotel
+  - utter_hotel
 
 ## sad path 1
 * greet

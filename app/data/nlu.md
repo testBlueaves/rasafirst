@@ -22,6 +22,16 @@
 - Which kinds of companies and organisations are required to register on the FoodWatch platform?
 - Which companies and organisations need FoodWatch registration? 
 
+## intent:hotel
+- How should a hotel with multiple restaurants register on FoodWatch?
+- How do hotels with numerous restaurants sign up for FoodWatch? 
+- What information should a hotel with many restaurants provide to FoodWatch?
+- FoodWatch registration for hotels with many restaurants?
+- How should a hotel with various dining options register with FoodWatch?
+- How does a hotel with more than one restaurant sign up for FoodWatch?
+- Registration for FoodWatch at a hotel that features various dining options.
+- How should a hotel that features many dining establishments sign up for FoodWatch?
+- FoodWatch registration for hotels with many restaurants? 
 
 
 ## intent:goodbye

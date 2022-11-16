@@ -8,30 +8,38 @@ intents:
   - bot_challenge
   - ask
   - organizations
+  - hotel
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
+
+  utter_hotel:
+  - text: "The hotel should register first using the license number as a 'main entity' and the restaurants in the hotel
+   should be registered as 'sub-entities'.
+   Contact the FoodWatch support team for registering and mapping the entities and sub-entities.
+   If there are restaurants with independent licenses that are leased out, the restaurant must be registered as a 
+   separate entity and not as a sub-entity."
 
   utter_ask:
   - text: "by doing practice"
 
   utter_organizations:
   - text: "The following businesses should be registered on FoodWatch.
-            All food establishments including food trucks, and kiosks*
-            Pest management companies
-            Food safety training centers
-            Food safety certification bodies
-            Grease trap cleaning companies
-            Water tank cleaning companies
-            Food transportation vehicle suppliers
-            Manpower (food handlers) suppliers to food establishments
-            Vehicle Approval centers
-            Food Packaging Material Supplier
-            Every business registered in FoodWatch is called an 'entity.' An entity requires a specific location and a
-            Primary PIC who can manage the data.
-            *In the case of catering companies that operate in multiple sites under the same license, all sites should
-            be registered as 'sub entities' under the main license entity."
+  All food establishments including food trucks, and kiosks*
+  Pest management companies
+  Food safety training centers
+  Food safety certification bodies
+  Grease trap cleaning companies
+  Water tank cleaning companies
+  Food transportation vehicle suppliers
+  Manpower (food handlers) suppliers to food establishments
+  Vehicle Approval centers
+  Food Packaging Material Supplier
+  Every business registered in FoodWatch is called an 'entity.' An entity requires a specific location and a
+  Primary PIC who can manage the data.
+  *In the case of catering companies that operate in multiple sites under the same license, all sites should
+  be registered as 'sub entities' under the main license entity."
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
