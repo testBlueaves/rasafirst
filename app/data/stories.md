@@ -8,6 +8,10 @@
 * ask
   - utter_ask
 
+## food-watch
+* organizations
+  - utter_organizations
+
 ## sad path 1
 * greet
   - utter_greet

@@ -7,6 +7,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - ask
+  - organizations
 
 responses:
   utter_greet:
@@ -14,6 +15,23 @@ responses:
 
   utter_ask:
   - text: "by doing practice"
+
+  utter_organizations:
+  - text: "The following businesses should be registered on FoodWatch.
+            All food establishments including food trucks, and kiosks*
+            Pest management companies
+            Food safety training centers
+            Food safety certification bodies
+            Grease trap cleaning companies
+            Water tank cleaning companies
+            Food transportation vehicle suppliers
+            Manpower (food handlers) suppliers to food establishments
+            Vehicle Approval centers
+            Food Packaging Material Supplier
+            Every business registered in FoodWatch is called an 'entity.' An entity requires a specific location and a
+            Primary PIC who can manage the data.
+            *In the case of catering companies that operate in multiple sites under the same license, all sites should
+            be registered as 'sub entities' under the main license entity."
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"

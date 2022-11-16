@@ -10,6 +10,20 @@
 - i wanna be a developer
 - how to become a developer
 
+## intent:organizations 
+- What types of organizations and businesses need registration on FoodWatch platform? 
+- Can I register on a FoodWatch? 
+- Please mention the type of organization and business That can register on FoodWatch?
+- What kinds of businesses and organisations must register on the FoodWatch platform?
+- What types of organisations and businesses are required to register on the FoodWatch platform?
+- What categories of businesses and organisations are required to register on the FoodWatch platform?
+- What kinds of businesses and organisations need to sign up for the FoodWatch platform?
+- We need to know what kinds of businesses and organisations will be using the FoodWatch platform.
+- Which kinds of companies and organisations are required to register on the FoodWatch platform?
+- Which companies and organisations need FoodWatch registration? 
+
+
+
 ## intent:goodbye
 - bye
 - goodbye
