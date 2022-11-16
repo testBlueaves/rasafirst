@@ -16,6 +16,9 @@
 * hotel
   - utter_hotel
 
+## license
+* license
+  - utter_license
 ## sad path 1
 * greet
   - utter_greet

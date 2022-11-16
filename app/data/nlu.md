@@ -33,6 +33,15 @@
 - How should a hotel that features many dining establishments sign up for FoodWatch?
 - FoodWatch registration for hotels with many restaurants? 
 
+## intent:license
+- How should a caterer with multiple sites register on FoodWatch if all sites are operating under the main license? 
+- If all sites are under one licence, how should a caterer register on FoodWatch? 
+- If a caterer has many locations that all fall under the same main licence, how should the caterer register with FoodWatch?
+- If a caterer has many locations that are all covered by the same licence, how should they sign up for FoodWatch?
+- How does a caterer sign up for FoodWatch if they have more than one location but only one licence?
+- How should a caterer with several locations register with FoodWatch if all locations operate under a single licence?
+- How should a caterer with several locations register with FoodWatch if all locations operate under the same licence?
+- If a caterer operates many locations under one main licence, how should they register on FoodWatch? 
 
 ## intent:goodbye
 - bye

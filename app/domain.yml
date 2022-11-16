@@ -9,6 +9,7 @@ intents:
   - ask
   - organizations
   - hotel
+  - license
 
 responses:
   utter_greet:
@@ -40,6 +41,12 @@ responses:
   Primary PIC who can manage the data.
   *In the case of catering companies that operate in multiple sites under the same license, all sites should
   be registered as 'sub entities' under the main license entity."
+
+  utter_license:
+  - text: "The caterer must register the main entity under the license and then create sub-entities for all the 
+  individual sites. The caterer must designate PICs in each site to carry out the opening checks, delivery checks when 
+  ready-to-eat food is delivered on-site, and process and equipment checks. Sites that are not active must be 
+  deactivated immediately."
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
