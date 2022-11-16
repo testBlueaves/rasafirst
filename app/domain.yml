@@ -10,6 +10,17 @@ intents:
   - organizations
   - hotel
   - license
+  - Primary_PIC
+  - permits
+  - PICs_trained_certified
+  - obtaining_PIC_certification
+  - Active_status
+  - Inactive
+  - Inactive_performed
+  - Start-up
+  - food_handler
+  - PIC_premises
+  - process_equipment_check
 
 responses:
   utter_greet:
@@ -52,8 +63,99 @@ responses:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_Primary_PIC:
+  - text: "Every food business must have a Primary PIC registered and linked to the entity. The primary PIC will be
+  able to use the various functionalities of the FoodWatch platform including food safety checks, adding the data of 
+  food handlers, requesting training, adding suppliers, and managing all the relevant data essential for food safety 
+  management. "
+
+  utter_Secondary_PIC:
+  - text: "The business can also designate one or more secondary PICs who can perform food safety checks. The
+  secondary PIC has limited access to other functionalities."
+
+  utter_permits:
+  - text: "Primary PICs and Technical experts can apply for new food-related permits through the FoodWatch web portal.
+  In FoodWatch, open the ‘Smart Services’ tab to apply for the permits. All requirements relevant to the permit will be 
+  shown when the permit request is opened. Ensure that the requirements are met before the permit is applied.
+  Renewals of food permits can be done by FoodWatch Portal. However, renewals can be done only if there are no changes 
+  in the information provided at the time of obtaining the first permit."
+
+  utter_PICs_trained_certified:
+  - text: "All secondary PICs must be formally trained and certified as a Food Safety Person in Charge in Dubai. The
+  PIC must complete the training relevant to the type of food business, and obtain the certification after
+  formal training and assessment.
+  Primary PICs in a food establishment can be the owner or the manager of the food business. It is not
+  mandatory for the Primary PICs to have formal training if they are not involved in conducting the food
+  safety checks. However, there should be at least one other PIC in such an establishment with an 'Active'
+  status to ensure that food safety requirements of Dubai Municipality are met."
+
+  utter_obtaining_PIC_certification:
+  - text: "Dubai’s digital strategy requires individuals in the city to be digitally empowered with knowledge on how
+  to use and utilize the systems relevant to them. PIC training is a qualification linked to the food safety
+  competency of the person and digital literacy is one of the core competencies required. Conducting the
+  PIC checks before the training not only provides the PICs with a background on what checks are relevant
+  to food safety, but also enables them to understand the concepts during the training better.
+  People who have no role in food safety management should not be a part of the FoodWatch system as it
+  dilutes the principles of leadership and management in food safety. Efforts must be taken to ensure that
+  PIC certification is not seen as a normal ‘training’ program. Instead, PICs must be a recognized
+  component of the food system with the primary role to ensure food safety in a business."
+
+  utter_Active_status:
+  - text: "Active status indicates that the PIC is actively conducting food safety checks in the food business.
+  FoodWatch platform evaluates the performance of the PIC based on the checks conducted during a
+  week (Monday to Sunday)."
+
+  utter_Inactive:
+  - text: "The status will not affect any of the features."
+
+  utter_Inactive_performed:
+  - text: "The score on the PICs profile indicates the score from the week before. The score will be updated once
+  the PIC completes 7 days of checks."
+
+  utter_Start-up:
+  - text: "The start-up or opening check must be conducted at the beginning of every shift. Before the food
+  handler starts the work, the PIC has to ensure that
+  the staff are hygienic and free from any illness and injury
+  ensure that the premises and equipment and clean and ready for food preparation
+  ensure handwash facilities are ready
+  ensure that any pest incident is reported to the pest contract company immediately
+  ensure that food storage and transportation equipment are good
+  conduct any other checks relevant to food safety"
+
+  utter_food_handler:
+  - text: "If the PIC notices a food handler with illness, the illness must be reported by selecting the name of the
+  food handler from the drop-down list on the relevant inspection checkpoint. The PIC can designate
+  another team member to take an action to exclude the employee or designate the action himself or
+  herself.
+  Once the incident is designated to a PIC, the task will appear on 'Action' in the app and 'bell icon' or
+  'pending action' list in the web portal. The designated PIC has to close the incident reported to them by
+  entering the action taken in the remarks column."
+
+  utter_PIC_premises:
+  - text: "The PIC must ensure that the relevant area or equipment is selected and reported. Along with the
+  reporting, the work should be assigned to the designated team member (from the dropdown list that
+  appears when the issue is reported.
+  Once the incident is designated to a PIC, the task will appear on 'Action' in the app and 'bell icon' or
+  'pending action' list in the web portal. The designated PIC has to close the incident reported to them by
+  entering the action taken in the remarks column. The bell icon disappears once the action is taken.
+  How should the PIC conduct process checks?
+  Process check functionality on FoodWatch is designed to identify problems in processes, particularly the
+  ones that are critical to food safety.
+  A food business must record at least 4 process checks in a day and additional checks can be made if
+  necessary.
+  How should the PIC conduct equipment checks?
+  The PIC should verify the status of the equipment while it is in use. This is to ensure that the food is safe.
+  The checks related to equipment can include cleaning, functionality, ability to hold food at a specific
+  temperature, or the ability to cool foods.
+  Cleaning checks must be conducted before the use, or during the use if the use is prolonged."
+
+
+  utter_process_equipment_check:
+  - text: "Process checks help the PIC to identify any problems in the process steps. If a deviation is noticed, the
+  next action would be to verify whether the equipment linked to that process is working properly.
+  For example, if the cold food in the buffet is found to be at 15 Deg C after an hour on the display, the PIC
+  must check the equipment used for holding the cold food. If the equipment is faulty, the equipment
+  status should be reported using the app."
 
   utter_happy:
   - text: "Great, carry on!"
@@ -63,6 +165,9 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_did_that_help:
+  - text: "Did that help you?"
 
 session_config:
   session_expiration_time: 60
