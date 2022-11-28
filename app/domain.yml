@@ -11,6 +11,7 @@ intents:
   - hotel
   - license
   - Primary_PIC
+  - Secondary_PIC
   - permits
   - PICs_trained_certified
   - obtaining_PIC_certification
@@ -21,17 +22,57 @@ intents:
   - food_handler
   - PIC_premises
   - process_equipment_check
+  - several_food_temperature
+  - supplier_management
+  - PIC_report_pest_incidents
+  - PIC_contracts
+  - Ramadan
+  - remark_license
+  - service_provider_remark_license
+  - pre-approval_DM_Permit_Officer
+  - not_inspected_DM_Inspector
+  - register_trade_license_Restaurant_management
+  - licensing_authority_Annual_kiosk_permit
+  - without_DTCM_approval
+  - Select_Food_message_process_check
+  - Web_Browser
+  - use_mobile
+  - App
+  - Training_Permit
+  - Non-Halal_Permit
+  - Rejection_Non-Halal_Permit
+  - requirements_Non-Halal_Permit
+  - leased_out_non-halal_Permit
+  - PIC_Certificate_Food_Trading
+  - Food_Safety_Training_(BFS)_PIC_training_requests
+  - Inspections_Restaurant_Management
+  - Manpower_Supply_Business_BSF
+  - change_inspection_checklist
+  - limit_adding_PICs_under_my_entity
+  - register_company_Initial_Trade_Name_Reservation_Certificate
+  - free_online_sessions
+  - DED_permit_Permanent_annual_kiosk
 
 responses:
+
   utter_greet:
   - text: "Hey! How are you?"
 
-  utter_hotel:
-  - text: "The hotel should register first using the license number as a 'main entity' and the restaurants in the hotel
-   should be registered as 'sub-entities'.
-   Contact the FoodWatch support team for registering and mapping the entities and sub-entities.
-   If there are restaurants with independent licenses that are leased out, the restaurant must be registered as a 
-   separate entity and not as a sub-entity."
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_did_that_help:
+  - text: "Did that help you?"
 
   utter_ask:
   - text: "by doing practice"
@@ -53,21 +94,24 @@ responses:
   *In the case of catering companies that operate in multiple sites under the same license, all sites should
   be registered as 'sub entities' under the main license entity."
 
+  utter_hotel:
+  - text: "The hotel should register first using the license number as a 'main entity' and the restaurants in the hotel
+  should be registered as 'sub-entities'.
+  Contact the FoodWatch support team for registering and mapping the entities and sub-entities.
+  If there are restaurants with independent licenses that are leased out, the restaurant must be registered as a 
+  separate entity and not as a sub-entity."
+
   utter_license:
   - text: "The caterer must register the main entity under the license and then create sub-entities for all the 
   individual sites. The caterer must designate PICs in each site to carry out the opening checks, delivery checks when 
   ready-to-eat food is delivered on-site, and process and equipment checks. Sites that are not active must be 
   deactivated immediately."
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
   utter_Primary_PIC:
   - text: "Every food business must have a Primary PIC registered and linked to the entity. The primary PIC will be
   able to use the various functionalities of the FoodWatch platform including food safety checks, adding the data of 
   food handlers, requesting training, adding suppliers, and managing all the relevant data essential for food safety 
-  management. "
+  management."
 
   utter_Secondary_PIC:
   - text: "The business can also designate one or more secondary PICs who can perform food safety checks. The
@@ -157,17 +201,192 @@ responses:
   must check the equipment used for holding the cold food. If the equipment is faulty, the equipment
   status should be reported using the app."
 
-  utter_happy:
-  - text: "Great, carry on!"
 
-  utter_goodbye:
-  - text: "Bye"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+
+  utter_several_food_temperature:
+  - text: "Food temperature checks can be done as many times as possible. However, considering the time and
+  effort required to enter the data, only 4 or 5 records need to be made per day on FoodWatch. This
+  should ideally be a mix of processes, particularly the ones involving high risk foods.
+  All deviations must be reported. Any deviation in the system must be reported on FoodWatch. For
+  instance, if you find the temperature of hot food in the buffet at 55 Deg C, this is a deviation and thus
+  must be reported.
+  Note that it is not about the quantity of data, but the quality. Regular checks are important to ensure
+  that your processes are carried out in a way that food safety outcomes are achieved. Any deviations
+  must be reported so that immediate action (correction) can be taken such a removal of food from the
+  buffet when there is a temperature abuse, and corrective action can be taken by fixing the equipment
+  before its used again. Looking at the long time performance of the equipment, the business can take
+  preventive actions such a replacing the faulty equipment with the one that has a better performance."
+
+  utter_supplier_management:
+  - text: "Food safety in your business starts with the raw materials and services provided by your suppliers. For
+  this reason, verification of the suppliers is an essential step before you obtain foods and services from
+  them. By adding the supplier to your list on FoodWatch helps you to see their food inspection grade,
+  and performance. This gives you an insight about the suppliers overall food safety performance."
+
+  utter_PIC_report_pest_incidents:
+  - text: "Dubai Municipality requires all food businesses to establish digital contracts with the pest management
+  company using the FoodWatch Supplier Management system. You can add suppliers in a matter of
+  seconds once you are in the supplier management portal.
+  Once your contractor is added, all notifications regarding the pests will be directed to your supplier
+  replacing the need to maintain records and calls."
+
+  utter_PIC_contracts:
+  - text: "Add the grease trap or water tank cleaning company as a supplier first. Once added, a PIC can use the
+  FoodWatch connect app to request for any service through the ‘Manage Services’ tab.
+  Do not maintain paper based records for grease traps. The history of cleaning can be viewed on
+  FoodWatch platform.
+  In the similar way, water tank cleaning requests can be made online using the app or the web portal."
+
+  utter_Ramadan:
+  - text: "The official working hours for FoodWatch Team during Ramadan will be 9 AM to 6 PM, from Monday to Friday. "
+
+
+  utter_remark_license:
+  - text: "No, because it’s still inactive, the remark will be cleared when the food permit officer approves your
+  kitchen layout.
+  For Food Business, you need to send the proposal layout along with a copy of the trade license and Ejari
+  Contract to the permit team FoodPermits@dm.gov.ae.You will receive a response from the DM Permits
+  Team within 24 hrs – if it’s approved, you have to proceed to Tasheel or DED to print the Trade License
+  without the remark."
+
+  utter_service_provider_remark_license:
+  - text: "No, you need to refer to your activity-related department in Dubai Municipality (e.g. Building dept) to
+  remove the remark and get the final TL copy, then you can register your business in FoodWatch."
+
+  utter_pre-approval_DM_Permit_Officer:
+  - text: "No pre-approval required from food safety Department for trading activities. The Foodwatch team can
+  register the license directly."
+
+  utter_not_inspected_DM_Inspector:
+  - text: "To apply for food permit, the entity must be inspected, the entity can apply once they get A,B,C grade
+  only (except the trading activities with office based licenses)."
+
+  utter_register_trade_license_Restaurant_management:
+  - text: "You can register in FoodWatch, but you cannot apply for any food permit, or conduct daily inspections."
+
+  utter_licensing_authority_Annual_kiosk_permit:
+  - text: "You need to provide a Permit from the licensing authority during the registration step."
+
+  utter_without_DTCM_approval:
+  - text: "You can apply for food activity at event without DTCM or DED permit, but you have to make sure that
+  you take DTCM or DED permit , it will be with your responsibility."
+
+  utter_Select_Food_message_process_check:
+  - text: "You need to add your food items firstly before doing the process check:
+  Login to FoodWatch ›› click on ≡ ›› Food Safety Management ›› Manage System ›› Food Information ››
+  Add food
+  Or you can add it using the “ Menu” option: Login to FoodWatch ›› click on ≡ ›› FoodWatch QR ››
+  Create Menu ›› Then add your food items manually."
+
+  utter_Web_Browser:
+  - text: "Google Chrome."
+
+  utter_use_mobile:
+  - text: "You can use your mobile to access FoodWatch Connect App or FoodWatch QR Code. To access the
+  website you need to use a desktop computer, laptop, tablet, or iPad"
+
+  utter_App:
+  - text: "You need to update your region to UAE.
+  To update Google Play Country: https://support.google.com/googleplay/answer/7431675?hl=en&co=GENIE.Platform%3DAndroid&oco=1
+  To update Apple ID Region: https://support.apple.com/en-us/HT201389"
+
+  utter_Training_Permit:
+  - text : "1- Contact foodtraining@dm.gov.ae to get the approval
+  2- Once you get the approval, contact Support@foodwatch.ae to register your company.
+  3- Pay the subscription fees of FoodWatch Registration (1000 AEDs)
+  4- login to FoodWatch, access Smart Services, Smart Permits, Approval and Permits
+  5- Apply for Trainer Permit, once you get the Approval you can Apply for Training center Permit.
+  6- Clear any required subscription fees of the permits"
+
+  utter_Non-Halal_Permit:
+  - text: "- Only licensed food establishments in Dubai with a food inspection grade of A, B or C with no major or
+  critical violations linked to space/layout/practices can obtain the permit.
+  -5 Stars Hotels with sufficient facilities
+  -Individual Departmental Stores or supermarkets with a minimum area of 7000 SqFt can apply for the permit.
+  -Food trading establishment with warehouse in Dubai."
+
+  utter_Rejection_Non-Halal_Permit:
+  - text: "- The establishment’s inspection Grade is D and below.
+  - The establishment does not comply with the non-halal food requirements."
+
+  utter_requirements_Non-Halal_Permit:
+  - text: "New permits to Supermarkets and Departmental stores will be limited to establishments that have at
+  least 3 branches in Dubai
+  Stores need at least 7000 Sq Ft of Floor space and the handling area for Non Halal Foods should not be
+  more than 300 Sq Ft.
+  Documents to be attached
+  Trade License
+  NOC from the owner of the building
+  Lay-out approval of the whole supermarket (Contact: FoodPermits@dm.gov.ae)
+  Lay-out of Non-Halal Area.
+  Food Inspection Report
+  Ejari
+  Foodwatch Registration
+  Restaurants that apply for the permit for the first time shall be a part of a 5 star hotel and must be
+  fully run by the hotel and not leased out.
+  Stand-alone restaurants/facility will not be able to prepare, serve or sell pork. UPDATED Food Code 2 0 -
+  Draft Version7 23 March 2021 - 8.7.4
+  For Clubs, Register the Main Trade License of the Club and add the restaurants as sub-entity on
+  Foodwatch Platform.
+  Documents to be attached
+  Lay-out approval of the Non-Halal Kitchen and Food inspection Report c/o Mr. Omer Hassan – 050-
+  5899500/050-8044774
+  NOC stating to where the non-halal items to be served
+  Importation of Non-Halal Items with proper warehouse storage facilities.
+  Pork can be sold and display only inside the Supermarket/Hypermarkets complying with the relevant
+  requirements.
+  Valid Trade License with Food Activity issued from Licensing Authority in Dubai
+  Food Importation including non-halal/FIRS (Food Import and Re-export System) registration and barcode
+  registration and other food products requirements– c/o Food Trade Section
+  foodtradefollowup@dm.gov.ae
+  Food Inspection Report of the facility/warehouse in Dubai c/o Mr. Ahmad Omar – 055-4046096
+  NOC from warehouse facility to be attached on applying on Foodwatch Platform.
+  Foodwatch Registration    "
+
+  utter_leased_out_non-halal_Permit:
+  - text: "No"
+
+  utter_PIC_Certificate_Food_Trading:
+  - text: "No, the PIC certificate of a food trading company is different from food service business, you cannot get
+  it via FoodWatch, for more information regarding PIC training of food trading, contact:
+  foodtradefollowup@dm.gov.ae"
+
+  utter_Food_Safety_Training_(BFS)_PIC_training_requests:
+  - text: "Yes, it’s allowed, unless the food handler is working under a Food establishment, at this time the food
+  handler should be registered and linked to this entity,
+  In addition, if the food handler joins a new Food Establishment, the PIC of this entity needs to add him
+  as an existing Food handler, and no need to get new BFS training if it’s still valid."
+
+  utter_Inspections_Restaurant_Management:
+  - text: "No, Restaurant Management is not allowed to get any Food Permit or conduct daily Inspections, unless
+  there is food activity under the same trade license (e.g., Cafeteria)"
+
+  utter_Manpower_Supply_Business_BSF:
+  - text: "Yes, and once the Food handler joins a new food establishment, the PIC of this company should add him
+  as an existing Food handler, and no need to get new BFS training if it’s still valid."
+
+  utter_change_inspection_checklist:
+  - text: "Login to FoodWatch ›› click on ≡ ›› Food Safety Management ›› Manage Inspection Checklist ›› Select
+  the category ›› Save settings"
+
+  utter_limit_adding_PICs_under_my_entity:
+  - text: "10 PICs, and if you want to add more, please contact Foodwatch Support Team (support@foodwatch.ae)"
+
+  utter_register_company_Initial_Trade_Name_Reservation_Certificate:
+  - text: "No, It should be a trade license."
+
+  utter_free_online_sessions:
+  - text: "Access FoodWatch Website, click on the training tab, then choose your language."
+
+  utter_DED_permit_Permanent_annual_kiosk:
+  - text: "Yes, you should mention the permit number as a remark once you request for an Annual kiosk or Annual
+  truck.
+  Login to FoodWatch ›› click on ≡ ›› Smart Services ›› Smart Permits ›› Approvals and Permits ›› choose
+  the type of permit ›› then fill all the required fields, and mention the permit number in the remarks ››
+  Click on Send Request"
+
 
 session_config:
   session_expiration_time: 60
