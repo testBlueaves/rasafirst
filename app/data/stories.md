@@ -214,21 +214,53 @@
 * DED_permit_Permanent_annual_kiosk
   - utter_DED_permit_Permanent_annual_kiosk
 
+## Cash payment for FoodWatch or permit subscriptions
+* FoodWatch_permit_fees_cash
+  - utter_FoodWatch_permit_fees_cash
 
+## Is the Dubai Municipality Voucher valid
+* Dubai_Municipality_Voucher
+  - utter_Dubai_Municipality_Voucher
 
+## What FoodWatch permits may non-Dubai companies request
+* non-Dubai_companies_request
+  - utter_non-Dubai_companies_request
 
+## Can I go from food handler to primary or secondary PIC?
+* Food_handler_Primary_Secondary_PIC
+  - utter_Food_handler_Primary_Secondary_PIC
 
+## How do I switch roles as Primary or Secondary PIC
+* switch_roles_Primary_Secondary_PIC
+  - utter_switch_roles_Primary_Secondary_PIC
 
+## Is Basic Food Safety Training available without Emirates ID
+* Training_Valid_Emirates_ID
+  - utter_Training_Valid_Emirates_ID
 
+## Can a trainer change a client's course name after confirmation 
+* course_name_client
+  - utter_course_name_client
 
+## Basic Food Safety Qualification validity
+* Qualification_validity
+  - utter_Qualification_validity
 
+## Technical Expert and Contact roles
+* Technical_Expert_Contact
+  - utter_Technical_Expert_Contact
 
+## FoodWatch business registration: how
+* register_business
+  - utter_register_business 
 
+## Add my occupational health card
+* occupational_health_card
+  - utter_occupational_health_card
 
-
-
-
-
+## Can I upload my ISO/HACCAP certificate
+* ISO_HACCAP_certificate
+  - utter_ISO_HACCAP_certificate
 
 
 

@@ -52,6 +52,18 @@ intents:
   - register_company_Initial_Trade_Name_Reservation_Certificate
   - free_online_sessions
   - DED_permit_Permanent_annual_kiosk
+  - FoodWatch_permit_fees_cash
+  - Dubai_Municipality_Voucher
+  - non-Dubai_companies_request
+  - Food_handler_Primary_Secondary_PIC
+  - switch_roles_Primary_Secondary_PIC
+  - Training_Valid_Emirates_ID
+  - course_name_client
+  - Qualification_validity
+  - Technical_Expert_Contact
+  - register_business
+  - occupational_health_card
+  - ISO_HACCAP_certificate
 
 responses:
 
@@ -387,6 +399,57 @@ responses:
   the type of permit ›› then fill all the required fields, and mention the permit number in the remarks ››
   Click on Send Request"
 
+  utter_FoodWatch_permit_fees_cash:
+  - text: "You can pay Dubai Municipality fees through all Al Ansari Exchange branches in the UAE using the voucher 
+  numberYou can get the voucher number by accessing FoodWatch Website or sending the trade license copy to 
+  registration@foodwatch.ae"
+
+  utter_Dubai_Municipality_Voucher:
+  - text: "You can check the status of your tax invoice via the Dubai Municipality Website.Enter the voucher number ›› 
+  Pay Instantly ›› click on  +  ›› check the PV Status"
+
+  utter_non-Dubai_companies_request:
+  - text: "a-Food Activity at Events Permitb-Temporary Permit for changes related to food label/packagesFor more 
+  inquiries regarding Food Permits in Dubai, send an email to foodpermits@dm.gov.ae"
+
+  utter_Food_handler_Primary_Secondary_PIC:
+  - text: "To change role: The PIC, Technical Expert, and Technical Contact must login with their account ›› Click on 
+  the Toolbar ≡ ›› Food Safety Management ›› Manage People ›› Entity -Food Handler Information ›› Change Role ›› Select
+  the Role and User Type. The request will be revised, and it will be approved within 1 working day if it is complied 
+  with the requirements."
+
+  utter_switch_roles_Primary_Secondary_PIC:
+  - text : "Login to your Account ›› Click on the Toolbar ≡ ›› Food Safety Management ›› Manage People ›› Entity -PIC 
+  user information ›› Change Role ›› Select the Role and User Type. The request will be revised, and it will be approved 
+  within 1 working day if it is complied with the requirements."
+
+  utter_Training_Valid_Emirates_ID:
+  - text: "Yes, but you need to get yourEmirates ID and update your FoodWatch profile within 3 months, otherwise, 
+  the training course will not be valid."
+
+  utter_course_name_client:
+  - text: "No"
+
+  utter_Qualification_validity:
+  - text: "It’s Valid as long as it’s in FoodWatch"
+
+  utter_Technical_Expert_Contact:
+  - text: "Technical Experts: is a person that has the knowledge and education to train, inspect, audit, consult 
+  anything related to food safety. TE’s must provide detailed information about their expertise. Note: Trainer from 
+  internal/external training centres are registered as Technical Experts.Technical Contacts: is a person that has the 
+  skills to perform a task. E.g.: pest control contractors, water tank cleaning contractors etc."
+
+  utter_register_business:
+  - text: "For business registration on Foodwatch, Click here to fill the registration form. Once done, a FoodWatch 
+  representative will contact you within 1 working day.For follow-ups, please contact registration@foodwatch.ae "
+
+  utter_occupational_health_card:
+  - text: "There is no option in FoodWatch to add the occupational health card."
+
+  utter_ISO_HACCAP_certificate:
+  - text: "To link a valid ISO or HACCAP certificate, or to request a new one: login to FoodWatch, Access smart 
+  services, Digital Certification, then select your Certification Body and type of the certificate. Your certification 
+  body should receive the request and update it. "
 
 session_config:
   session_expiration_time: 60

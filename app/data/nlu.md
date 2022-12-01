@@ -526,3 +526,123 @@
 - When I make a request for a permanent annual kiosk, is it essential that I include the DED permission number?
 - Is the DED permission number required while requesting a permanent annual kiosk?
 
+
+## intent:FoodWatch_permit_fees_cash
+- How can I pay my FoodWatch or permit subscription fees by cash? 
+- How do I make a cash payment for my FoodWatch or permit subscription?
+- Is it possible to pay my FoodWatch or permit subscription costs in cash?
+- How can I pay cash for my FoodWatch or permit subscription?
+- How do I pay cash for a FoodWatch or permit subscription?
+- Where can I mail a check or money order for the cash price of a FoodWatch or permit subscription?
+- What are the cash payment options for my FoodWatch or permit subscription fees?
+- Cash payment for FoodWatch or permit subscriptions? 
+
+## intent:Dubai_Municipality_Voucher
+- How can I check the validity of the Dubai Municipality Voucher?
+- How can I determine whether my Dubai Municipality Voucher is still valid?
+- How can I determine the validity of my Dubai Municipality Voucher?
+- How can I verify the Dubai Municipality Voucher's validity?
+- How can I make sure that the Dubai Municipality Voucher is still good?
+- My Dubai Municipality Voucher appears to be invalid; what should I do?
+- How can I verify that the voucher I purchased from Dubai Municipality is still valid?
+- Is the Dubai Municipality Voucher valid? 
+
+## intent:non-Dubai_companies_request
+- What type of permits can be requested in FoodWatch by the companies from other emirates (outside Dubai)?
+- What kinds of permissions can businesses from other emirates (outside of Dubai) apply for under FoodWatch?
+- What types of permissions can enterprises from other emirates (other than Dubai) request through FoodWatch?
+- What types of permits can enterprises from other emirates (outside Dubai) request in FoodWatch?
+- What kinds of permits can companies from other emirates (those that are not Dubai) ask for in FoodWatch?
+- Which permits does FoodWatch allow businesses outside of Dubai to apply for?
+- What kinds of licences and permissions are available for application through FoodWatch for businesses located other emirates besides Dubai?
+- What FoodWatch permits may non-Dubai companies request? 
+
+## intent:Food_handler_Primary_Secondary_PIC
+- How can I change my role from Food handler to Primary or Secondary PIC?
+- How can I go from being a food handler to being a primary or secondary PIC?
+- How do I go from Food Handler to Primary or Secondary PIC?
+- How do I go from the post of Food handler to that of Primary or Secondary PIC?
+- How do I go from being a Food handler to being a Primary or Secondary PIC?
+- Can you tell me the steps to upgrade from "Food Handler" to "Primary PIC" or "Secondary PIC"?
+- What are the steps I need to take to transition from my current status as Food Handler to either Primary or Secondary PIC?
+- Can I go from food handler to primary or secondary PIC? 
+
+## intent:switch_roles_Primary_Secondary_PIC
+- How can I change my role from Secondary PIC to Primary PIC or vice versa?
+- How do I switch from being the Secondary PIC to the Primary PIC, or the other way around?
+- How do I switch from Secondary PIC to Primary PIC or vice versa?
+- How can I switch from Secondary PIC to Primary PIC, or vice versa?
+- How do I switch from Secondary PIC to Primary PIC or from Primary PIC to Secondary PIC?
+- Tell me how I may switch from secondary PIC to primary PIC.
+- What are the steps I need to take to switch from Secondary PIC to Primary PIC, or vice versa?
+- How do I switch roles as Primary or Secondary PIC? 
+
+## intent:Training_Valid_Emirates_ID
+- Can I get a Basic Food Safety Training without Valid Emirates ID
+- Can I enrol in a basic food safety course without a current Emirates ID?
+- Can I acquire Basic Food Safety Training if I don't have a valid Emirates ID?
+- Can Basic Food Safety Training be Obtained Without a Valid Emirates ID?
+- Can I get basic training on food safety without a valid Emirates ID?
+- Can I Get Food Safety Training in the UAE Without a Valid ID?
+- Is a valid Emirates ID required for the Food Safety Basics Course, or can I take it without it?
+- Is Basic Food Safety Training available without Emirates ID? 
+
+## intent:course_name_client
+- As a trainer, can I change the course name of my client after the confirmation step?
+- Can I, as a trainer, modify the client's course name after the confirmation process?
+- Can I, as a trainer, modify my client's course name after the confirmation step?
+- Can I, as a trainer, change a client's course name after the confirmation step?
+- As a trainer, can I change my client's course name after they've confirmed?
+- After the confirmation stage, is it possible for me as a trainer to alter the client's course title?
+- After the confirmation stage, do I have the ability as a trainer to change the name of the client's course?
+- Can a trainer change a client's course name after confirmation? 
+
+## intent:Qualification_validity
+- What is the validity of Basic Food Safety Qualification?
+- What is the Basic Food Safety Qualification's validity?
+- What is the legal status of the Basic Food Safety Qualification?
+- How valid is the Basic Food Safety Qualification?
+- How well does Basic Food Safety Qualification work?
+- For what purpose is Basic Food Safety Qualification used?
+- Where does the Basic Food Safety Qualification stand in terms of its credibility?
+- Basic Food Safety Qualification validity? 
+
+## intent:Technical_Expert_Contact
+- What is the role of Technical Expert and Contact?
+- What functions do technical experts and contacts perform?
+- What is the function of the Technical Expert and Contact?
+- What do Technical Expert and Contact play?
+- How do Technical Expert and Contact work?
+- Who are the Technical Expert and Contact?
+- What exactly is the relationship between the Technical Expert and the Contact? 
+- Technical Expert and Contact roles? 
+
+## intent:register_business
+- How can I register my business on FoodWatch?
+- How do I sign up my company for FoodWatch?
+- How do I get my company listed on FoodWatch?
+- How do I register my company with FoodWatch?
+- How do I get my business listed on FoodWatch?
+- My company wants to join FoodWatch; what should I do?
+- What are the steps I need to take to register my company with FoodWatch?
+- FoodWatch business registration: how? 
+
+## intent:occupational_health_card
+- How can I add my occupational health card?
+- My occupational health card cannot be added.
+- How do I insert my occupational health card? 
+- How can I add my occupational health card to my profile?
+- How do I add my health card from work?
+- How do I include my health card for work purposes?
+- What are the steps I need to take to add my occupational health card?
+- Add my occupational health card? 
+
+## intent:ISO_HACCAP_certificate
+- Is there anoption to add my ISO or HACCAP certificate?
+- Is there a way for me to add my HACCAP or ISO certificate?
+- Is it possible to include my ISO or HACCAP certificate?
+- Exists an ability to include my ISO or HACCAP certification?
+- Is there a way to add my ISO or HACCAP certificate?
+- Can I include my quality assurance seal, like ISO or HACCP? 
+- Can I upload my ISO/HACCAP certificate?
+- Is there a way to add my ISO or HACCAP certification, and if so, what are my options? 
